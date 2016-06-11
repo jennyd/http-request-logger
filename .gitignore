@@ -1,2 +1,3 @@
 __pycache__/
 gunicorn_log/
+saved_requests/
