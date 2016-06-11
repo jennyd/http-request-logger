@@ -17,5 +17,5 @@ Run the app with gunicorn, reloading files when they change and logging to
 stdout:
 
 ```
-gunicorn --reload --access-logfile - --error-logfile - logger:app
+gunicorn -c gunicorn_config_development logger:app
 ```
