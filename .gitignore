@@ -1,2 +1,2 @@
 __pycache__/
-
+gunicorn_log/
