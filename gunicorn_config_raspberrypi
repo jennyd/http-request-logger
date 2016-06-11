@@ -1,0 +1,4 @@
+pidfile = '/run/gunicorn/pid'
+accesslog = 'gunicorn_log/access.log'
+errorlog = 'gunicorn_log/error.log'
+workers = 4
