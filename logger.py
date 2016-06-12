@@ -25,6 +25,7 @@ class RequestLogger(object):
         r += '\n'
         encoded = r.encode()
         encoded += req.stream.read()
+        encoded += '\n\n'.encode()
 
         return encoded
 
